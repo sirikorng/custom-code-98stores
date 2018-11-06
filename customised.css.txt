@@ -10,3 +10,30 @@
 .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.reports{
 		display:none;
 }
+.dokan-settings-content .dokan-settings-area .dokan-banner {
+    width: 70%;
+    height: 300px;
+}
+.dokan-w3 {
+    width: 100%;
+    float: left;
+}
+.dokan-w5 {
+    width: 65%;
+    float: left;
+}
+
+.dokan-text-left {
+    text-align: left;
+}
+.dokan-form-horizontal .dokan-control-label {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-right: 15px;
+}
+.dokan-settings-content .dokan-settings-area .dokan-banner {
+    width: 90%;
+    height: 300px;
+}
+
