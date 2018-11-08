@@ -1,15 +1,13 @@
+
+
+/* Disable dashboard */
 .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.coupons{
 		display:none;
 }
 .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.reviews{
 		display:none;
 }
-.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.withdraw{
-		display:none;
-}
-.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.reports{
-		display:none;
-}
+
 .dokan-settings-content .dokan-settings-area .dokan-banner {
     width: 70%;
     height: 300px;
@@ -19,7 +17,7 @@
     float: left;
 }
 .dokan-w5 {
-    width: 65%;
+    width: 80%;
     float: left;
 }
 
@@ -36,12 +34,17 @@
     width: 90%;
     height: 300px;
 }
-
 /*@media all and (max-width:480px)*/
 ul.wpuf-form li.field-size-medium .wpuf-fields {
     float: none;
     width: 80%;
 }
+/* revide banner width for mobile responsive */
+.dokan-settings-content .dokan-settings-area .dokan-banner {
+    width: 80%;
+    height: 300px;
+}
+
 /* Realign add new product button to left side supporting mobile responsive*/
 .dokan-product-listing .dokan-product-listing-area .product-listing-top span.dokan-add-product-link {
     width: 100%;
@@ -49,4 +52,6 @@ ul.wpuf-form li.field-size-medium .wpuf-fields {
     text-align: left;
 }
 
-
+.page-title.blog-listing, .woocommerce .page-title, .page-title, .single .entry-title, .woocommerce-cart .page-title, .woocommerce-checkout .page-title, .woocommerce-account .page-title {
+    font-size: 30px;
+}
