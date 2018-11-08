@@ -1,10 +1,11 @@
-
-
 /* Disable dashboard */
 .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.coupons{
 		display:none;
 }
 .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.reviews{
+		display:none;
+}
+.dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.withdraw{
 		display:none;
 }
 
